@@ -1,6 +1,22 @@
 # Anaconda Cheatsheet
 This repo contains useful Anaconda resources and commands that I frequently use for data science.
 
+## Environment Template
+Included is a `template_env.txt` file that contains all the basic data science packages that are normally required. To used it run
+```
+conda env create --file template_env.txt
+```
+The template enviroment contain the following packages:
+- Jupyter notebook
+- Jupyter lab
+- Pandas
+- Numpy
+- Scipy
+- Matplotlib
+- Seaborn
+- Scikit learn
+
+
 ## Useful Commands
 
 ### Environment
