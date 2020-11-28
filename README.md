@@ -6,7 +6,7 @@ Included is a `template_env.txt` file that contains all the basic data science p
 ```
 conda env create --file template_env.txt
 ```
-The template enviroment contain the following packages:
+The template enviroment contain the following packages and their prerequisites packages:
 - Jupyter notebook
 - Jupyter lab
 - Pandas
