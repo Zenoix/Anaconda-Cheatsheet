@@ -24,4 +24,6 @@ Update conda to the current version - `conda update conda`
 
 Update any installed program - `conda update PACKAGENAME`
 
+Update all installed packages - `conda update --all`
+
 Open Jupyter-lab - `jupyter-lab`
