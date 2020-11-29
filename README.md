@@ -11,7 +11,7 @@ Included is a `template_env.txt` file that contains all the basic data science p
 ```
 conda create --name <<env name>> --file template_env.txt
 ```
-The template enviroment contain the following packages and their prerequisites packages:
+The template enviroment contains the following packages and their prerequisites packages:
 - Jupyter notebook
 - Jupyter lab
 - Pandas
@@ -30,7 +30,7 @@ Create a new environment - `conda create --name <<env name>> (python=3.8)`
 
 Get a list of all my environments - `conda env list`
 
-Make exact copy of an environment - `conda create --clone original --name copy`
+Make an exact copy of an environment - `conda create --clone original --name copy`
 
 List all packages and versions installed in active environment - `conda list`
 
