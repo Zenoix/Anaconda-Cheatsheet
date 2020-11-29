@@ -1,6 +1,7 @@
 # Anaconda Cheatsheet
-This repo contains useful Anaconda resources and commands that I frequently use for data science.
+This repo contains useful Anaconda resources and commands that I frequently use for data science. This is not an exhaustive list of everything Anaconda contains. 
 
+## How to Use Commands
 **<< ... >> indicate text to replace**
 
 **( ... ) indicate optional but useful parameters**
