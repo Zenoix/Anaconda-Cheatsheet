@@ -10,6 +10,8 @@ This repo contains useful Anaconda resources and commands that I frequently use 
 Included is a `template_env.yml` file that contains all the basic data science packages that are normally required. To used it run:
 ```
 conda env create --name <<env name>> --file template_env.yml
+
+conda update --all
 ```
 The template enviroment contains the following packages and their prerequisites packages:
 - Jupyter notebook
