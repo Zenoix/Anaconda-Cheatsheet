@@ -7,9 +7,9 @@ This repo contains useful Anaconda resources and commands that I frequently use 
 **( ... ) indicate optional but useful parameters**
 
 ## Environment Template
-Included is a `template_env.txt` file that contains all the basic data science packages that are normally required. To used it run:
+Included is a `template_env.yml` file that contains all the basic data science packages that are normally required. To used it run:
 ```
-conda create --name <<env name>> --file template_env.txt
+conda env create --name <<env name>> --file template_env.yml
 ```
 The template enviroment contains the following packages and their prerequisites packages:
 - Jupyter notebook
@@ -34,9 +34,9 @@ Make an exact copy of an environment - `conda create --clone original --name cop
 
 List all packages and versions installed in active environment - `conda list`
 
-Export environment to a text file - `conda list --explicit > <<file name>>.txt`
+Export environment to a text file - `conda list --explicit > <<file name>>.yml`
 
-Create environment from a text file - `conda create --name <<env name>> --file <<text file path>>`
+Create environment from a file - `conda env create --name <<env name>> --file <<text file path>>`
 
 Delete an environment and everything in it - `conda env remove --name <<env name>>`
 
