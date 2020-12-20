@@ -4,7 +4,7 @@ This repo contains useful Anaconda resources and commands that I frequently use 
 ## How to Use Commands
 **<< ... >> indicate text to replace**
 
-**( ... ) indicate optional but useful parameters**
+**( ... ) indicate optional but potentially useful parameters**
 
 ## Environment Template
 Included is a `template_env.yml` file that contains all the basic data science packages that are normally required. To used it run:
